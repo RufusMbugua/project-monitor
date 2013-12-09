@@ -1,0 +1,110 @@
+@font-face {
+	font-family: Arsenal-Regular;
+	src: url('fonts/Arsenal-Regular.otf');
+}
+@font-face {
+	font-family: Arsenal-Bold;
+	src: url('fonts/Arsenal-Bold.otf');
+}
+
+body {
+	letter-spacing: 0.1px;
+	font-family: Arsenal-Regular;
+	font-size: 1.7em;
+	background: #F0F0F0;
+}
+
+.content {
+	padding: 2% 15% 2% 15%;
+	height: 96%;
+}
+#content1, #content2, #content3, #content4 {
+
+}
+#header {
+	background: #F0F0F0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1000000;
+	box-shadow: 0 0.5px 3px 0.5px #000;
+}
+#myCollapse {
+	overflow: hidden;
+}
+#header .navbar-default {
+	padding: 1% 0 0.5% 0;
+	background: #F0F0F0;
+	border: none;
+	width: 70%;
+	margin: auto;
+}
+#content_parent {
+	padding-top: 6%;
+}
+#content1 {
+	background: #53a0ee;
+}
+
+#content3 {
+	background: #eec453;
+}
+#content4 {
+
+}
+.col-md-4 {
+
+}
+.content h2{
+	font-size: 2.5em;	
+	font-family: Arsenal-Bold;
+}
+	
+.col-md-4 h3 {
+	font-size: 1.5em;
+	
+	font-family: Arsenal-Bold;
+}
+ul {
+	margin: 0;
+	padding-left: 10px;
+}
+ul li {
+	list-style: none;
+	line-height: 2em;
+}
+
+ul li i {
+	width: 10%;
+	font-size: 1.3em;
+	padding-right: 10px;
+}
+.myLink {
+	margin-top: 10px;
+	padding: 5px 14px 5px 14px !important;
+	margin-right: 10px;
+}
+ul.nav.navbar-nav li.active a, ul.nav.navbar-nav li.active a:hover, ul.nav.navbar-nav li a:hover {
+	background: #53a0ee;
+	color: white;
+}
+span.input-group-addon {
+	padding: 0 !important;
+	height: auto !important;
+}
+button i {
+	margin-right: 10px;
+}
+.btn, input {
+	font-family: "Helvetica";
+}
+section.active {
+	box-shadow: 0 -0.5px 3px 0.5px #000;
+}
+#current_page {
+	width: 40%;
+	display: none;
+	padding: 1%;
+	border-bottom: 3px solid #53a0ee;
+}
+}
